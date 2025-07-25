@@ -1,4 +1,3 @@
-````markdown
 # 🕰️ PastPortals — Rediscover History Through AI-Generated Visual Stories 🌍
 
 > ✨ An AI-powered mobile app that transforms historical events into **engaging, image-based videos** using Wikipedia and cutting-edge generative models.
