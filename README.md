@@ -6,7 +6,6 @@
 
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
 ![Kotlin](https://img.shields.io/badge/Frontend-Kotlin-orange?logo=kotlin)
-![Google Colab](https://img.shields.io/badge/AI-Powered%20by-Colab-yellow?logo=googlecolab)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
