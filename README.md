@@ -134,20 +134,6 @@ npm run dev
 
 ---
 
-## 🖼️ Sample Output
-
-> ✨ *Visual storytelling from AI-generated prompts*
-
-<p align="center">
-  <img src="assets/sample_frame_1.png" width="250"/>
-  <img src="assets/sample_frame_2.png" width="250"/>
-  <img src="assets/sample_frame_3.png" width="250"/>
-</p>
-
-> *Images above are automatically generated for the query “World War II”.*
-
----
-
 ## 🎓 Prompt Engineering Strategy
 
 Each Wikipedia event is broken down into:
@@ -207,5 +193,3 @@ This project is released under the [MIT License](LICENSE).
 > *"History is not just written — it's reimagined with AI."*
 
 ````
-
----
