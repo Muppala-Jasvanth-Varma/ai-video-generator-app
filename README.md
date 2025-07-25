@@ -1,9 +1,3 @@
-Absolutely, Jasvanth! Here's the **complete, copy-paste ready** and **fully elaborated README.md** for your **PastPortals app** — interactive, informative, and tailored to impress recruiters, collaborators, or conference judges.
-
-You can paste this directly into your GitHub repository’s `README.md` file.
-
----
-
 ````markdown
 # 🕰️ PastPortals — Rediscover History Through AI-Generated Visual Stories 🌍
 
