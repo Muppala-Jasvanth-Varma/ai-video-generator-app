@@ -1,25 +1,34 @@
-PastPortals — AI-Based Historical Visualization Platform
-Overview
+# PastPortals — AI-Based Historical Visualization Platform
+
+## Overview
 
 PastPortals is an AI-powered application that converts historical information into structured visual narratives. It enables users to explore historical events, timelines, and figures through automatically generated images and videos using verified data and generative AI models.
 
 The system accepts natural language queries such as:
 
-What happened in 1947
-Who was Nikola Tesla
-Explain World War II
+- What happened in 1947  
+- Who was Nikola Tesla  
+- Explain World War II  
 
 It processes these inputs and generates a coherent visual representation of the requested topic.
 
-Features
-Natural language query interface for historical exploration
-Integration with Wikipedia API for reliable data retrieval
-Automated prompt generation pipeline
-Text-to-image generation using diffusion models
-Image-to-video conversion via frame interpolation
-Android frontend built with Kotlin and Jetpack Compose
-GPU-based AI processing using Google Colab
-System Architecture
+---
+
+## Features
+
+- Natural language query interface for historical exploration  
+- Integration with Wikipedia API for reliable data retrieval  
+- Automated prompt generation pipeline  
+- Text-to-image generation using diffusion models  
+- Image-to-video conversion via frame interpolation  
+- Android frontend built with Kotlin and Jetpack Compose  
+- GPU-based AI processing using Google Colab  
+
+---
+
+## System Architecture
+
+```
 User Query
    ↓
 Wikipedia API
@@ -33,6 +42,7 @@ Frame Interpolation
 Video Output
    ↓
 Android Application
+```
 Tech Stack
 Frontend
 Kotlin
@@ -50,6 +60,7 @@ Google Colab (GPU Runtime)
 Optional
 FAISS or cloud-based storage for caching
 Project Structure
+
 pastportals/
 ├── backend/
 │   ├── routes/
@@ -70,6 +81,7 @@ pastportals/
 │   └── demo files
 │
 └── README.md
+
 Getting Started
 1. Clone Repository
 git clone https://github.com/your-username/pastportals.git
