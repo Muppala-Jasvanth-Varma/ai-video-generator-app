@@ -43,87 +43,63 @@ Video Output
    ↓
 Android Application
 ```
-Tech Stack
-Frontend
-Kotlin
-Jetpack Compose
-Backend
-Node.js
-Express.js
-AI and Processing
-Diffusers Library
-Wan2.1-T2V-1.3B
-Data Source
-Wikipedia API
-Infrastructure
-Google Colab (GPU Runtime)
-Optional
-FAISS or cloud-based storage for caching
-Project Structure
+## Tech Stack
+### Frontend
+   Kotlin
+   Jetpack Compose
+### Backend
+   Node.js
+   Express.js
+### AI and Processing
+   Diffusers Library
+   Wan2.1-T2V-1.3B
+### Data Source
+   Wikipedia API
+### Optional
+   FAISS or cloud-based storage for caching
 
-pastportals/
-├── backend/
-│   ├── routes/
-│   ├── controllers/
-│   ├── services/
-│   └── utils/
-│
-├── frontend/
-│   ├── ui/
-│   ├── viewmodels/
-│   └── screens/
-│
-├── colab_scripts/
-│   ├── text_to_image.ipynb
-│   └── image_to_video.ipynb
-│
-├── assets/
-│   └── demo files
-│
-└── README.md
+## Getting Started
+   1. Clone Repository
+   git clone https://github.com/your-username/pastportals.git
+   cd pastportals
+   2. Backend Setup
+   cd backend
+   npm install
+   npm run dev
+   3. Frontend Setup
+   Open the frontend/ folder in Android Studio
+   Connect an emulator or physical device
+   Run the application
+   4. AI Model Execution
+   Open the notebooks inside colab_scripts/
+   Enable GPU runtime in Google Colab
+   Run all cells to generate images and videos
+   Prompt Engineering
 
-Getting Started
-1. Clone Repository
-git clone https://github.com/your-username/pastportals.git
-cd pastportals
-2. Backend Setup
-cd backend
-npm install
-npm run dev
-3. Frontend Setup
-Open the frontend/ folder in Android Studio
-Connect an emulator or physical device
-Run the application
-4. AI Model Execution
-Open the notebooks inside colab_scripts/
-Enable GPU runtime in Google Colab
-Run all cells to generate images and videos
-Prompt Engineering
+   The system converts historical content into structured prompts using:
+   
+   Context (time, location, scale)
+   Key entities (people or groups)
+   Descriptive actions and environment
+   
+   These prompts are optimized for diffusion-based image generation models to ensure meaningful visual output.
 
-The system converts historical content into structured prompts using:
+## Future Enhancements
+   Voice-based query input
+   Multiple visual styles (realistic, animated, stylized)
+   Web-based platform deployment
+   Fine-tuned models on domain-specific datasets
+## Contributing
+   Fork the repository
+   Create a new branch
+   Commit your changes
+   Push to your branch
+   Submit a pull request
 
-Context (time, location, scale)
-Key entities (people or groups)
-Descriptive actions and environment
+## License
+   This project is licensed under the MIT License.
 
-These prompts are optimized for diffusion-based image generation models to ensure meaningful visual output.
-
-Future Enhancements
-Voice-based query input
-Multiple visual styles (realistic, animated, stylized)
-Web-based platform deployment
-Fine-tuned models on domain-specific datasets
-Contributing
-Fork the repository
-Create a new branch
-Commit your changes
-Push to your branch
-Submit a pull request
-License
-
-This project is licensed under the MIT License.
-
-Acknowledgements
-Wikipedia API for historical data
-Hugging Face for model ecosystem
-Google Colab for GPU infrastructure
+## Acknowledgements
+   Wikipedia API for historical data
+   Hugging Face for model ecosystem
+   Google Colab for GPU infrastructure
