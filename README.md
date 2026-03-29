@@ -51,8 +51,8 @@ Android Application
    Node.js
    Express.js
 ### AI and Processing
-   Diffusers Library
-   Wan2.1-T2V-1.3B
+   gemini-2.5-flash
+   veo-3.1-generate-preview
 ### Data Source
    Wikipedia API
 ### Optional
@@ -60,21 +60,21 @@ Android Application
 
 ## Getting Started
    1. Clone Repository
-   git clone https://github.com/your-username/pastportals.git
-   cd pastportals
+      git clone https://github.com/your-username/pastportals.git
+      cd pastportals
    2. Backend Setup
-   cd backend
-   npm install
-   npm run dev
+      cd backend
+      npm install
+      npm run dev
    3. Frontend Setup
-   Open the frontend/ folder in Android Studio
-   Connect an emulator or physical device
-   Run the application
+      Open the frontend/ folder in Android Studio
+      Connect an emulator or physical device
+      Run the application
    4. AI Model Execution
-   Open the notebooks inside colab_scripts/
-   Enable GPU runtime in Google Colab
-   Run all cells to generate images and videos
-   Prompt Engineering
+      Open the notebooks inside colab_scripts/
+      Enable GPU runtime in Google Colab
+      Run all cells to generate images and videos
+      Prompt Engineering
 
    The system converts historical content into structured prompts using:
    
